@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 w-full">
       {/* Glass background */}
-      <div className="absolute inset-0 bg-white/70 backdrop-blur-xl border-b border-white/30" />
+      <div className="absolute inset-0 bg-[rgb(250,249,246)] backdrop-blur-xl border-b border-white/30" />
 
       <div className="relative mx-auto flex h-[78px] max-w-[1320px] items-center justify-between px-8">
         {/* LOGO */}
@@ -107,7 +107,7 @@ export default function Navbar() {
         {/* CTA */}
         <Link
           href="/company/contact"
-          className="rounded-full bg-blue-600/90 px-6 py-2.5 text-sm font-medium text-white backdrop-blur transition hover:bg-blue-800"
+          className="rounded-full bg-blue-900/90 px-6 py-2.5 text-sm font-medium text-white backdrop-blur transition hover:bg-blue-800"
         >
           Book a Consultation
         </Link>

@@ -11,20 +11,12 @@ export default function Hero() {
   <div className="absolute inset-0 -z-20 hero-gradient" />
 
       {/* SOFT BLOB */}
-      <div
-        className="
-  absolute -bottom-48 left-[-10%]
-  h-[650px] w-[140%]
-  -z-10
-  rounded-[100%]
-  bg-blue-100/40
-  blur-[160px]
-"
+ <div
+  className="absolute -bottom-48 left-[-10%] h-[650px] w-[140%] -z-10 rounded-[100%] bg-[rgb(246,244,240)]/60 blur-[160px]"
+  style={{ animation: 'wave-move 22s ease-in-out infinite' }}
+/>
 
-        style={{
-          animation: "wave-move 22s ease-in-out infinite",
-        }}
-      />
+
 
       {/* CONTENT */}
       <div className="relative mx-auto max-w-7xl px-6 py-40 w-full">
@@ -33,7 +25,7 @@ export default function Hero() {
           <div className="flex justify-center lg:justify-start">
             <div className="relative overflow-hidden rounded-3xl shadow-2xl hover:scale-[1.02] transition-transform duration-500">
               <Image
-                src="/images/Metaball.gif"
+                src="/images/Studies.gif"
                 alt="Hero visual"
                 width={560}
                 height={460}
@@ -45,7 +37,7 @@ export default function Hero() {
 
           {/* RIGHT TEXT */}
           <div className="space-y-8">
-            <h1 className="text-5xl sm:text-6xl md:text-6xl  tracking-tight text-slate-900 leading-tight">
+            <h1 className="text-5xl sm:text-6xl md:text-6xl font-bold tracking-tight text-slate-900 leading-tight">
               <span className="block drop-shadow-sm">
                 Building Reliable
               </span>
@@ -62,7 +54,7 @@ export default function Hero() {
             <div className="flex gap-5 pt-4">
               <Link
                 href="/company/contact"
-                className="rounded-full bg-blue-600 px-9 py-4 text-sm font-semibold text-white shadow-xl transition hover:-translate-y-1 hover:shadow-2xl hover:bg-blue-700"
+                className="rounded-full bg-blue-900 px-9 py-4 text-sm font-semibold text-white shadow-xl transition hover:-translate-y-1 hover:shadow-2xl hover:bg-blue-700"
               >
                 Book a Consultation
               </Link>
