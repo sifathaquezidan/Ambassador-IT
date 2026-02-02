@@ -12,7 +12,7 @@ export default function ServiceCards() {
   {/* LEFT – IMAGE */}
   <div className="flex justify-center lg:justify-start lg:-ml-24">
     <Image
-      src="/images/download.gif"
+      src="/images/dash_round.png"
       alt="Abstract circular graphic"
       width={400}
       height={400}
