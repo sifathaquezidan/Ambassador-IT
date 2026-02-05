@@ -1,6 +1,7 @@
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import type { Metadata } from "next";
 
 export default function RootLayout({
   children,
@@ -17,5 +18,13 @@ export default function RootLayout({
     </html>
   );
 }
+
+export const metadata: Metadata = {
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/Ambassador_IT.png",
+  },
+};
 
 
