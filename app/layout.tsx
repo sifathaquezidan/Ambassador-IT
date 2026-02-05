@@ -3,6 +3,17 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import type { Metadata } from "next";
 
+
+export const metadata: Metadata = {
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
+};
+
+
+
 export default function RootLayout({
   children,
 }: {
@@ -18,13 +29,5 @@ export default function RootLayout({
     </html>
   );
 }
-
-export const metadata: Metadata = {
-  icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon.ico",
-    apple: "/apple-touch-icon.png",
-  },
-};
 
 
