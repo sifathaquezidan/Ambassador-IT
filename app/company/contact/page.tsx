@@ -30,7 +30,7 @@ export default function ContactPage() {
 
           <div className="mt-8">
             <div className="font-semibold">Business hours</div>
-            <p className="mt-2 text-sm text-slate-600">Sun–Thu: 10:00–18:00 </p>
+            <p className="mt-2 text-sm text-slate-600">Sat–Thu: 10:00 AM – 07:00 PM </p>
           </div>
         </div>
       </div>

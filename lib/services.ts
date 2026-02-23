@@ -50,8 +50,8 @@ export const serviceGroups: ServiceGroup[] = [
         href: "/company/contact",
       },
       {
-        title: "Blog Website",
-        desc: "MDX/CMS blog systems with tags, search, and strong editorial experience.",
+        title: "Travel Website",
+        desc: "Explore destinations, travel guides, itineraries, and booking features.",
         tag: "Content",
         href: "/company/contact",
       },
@@ -155,34 +155,34 @@ export const serviceGroups: ServiceGroup[] = [
   },
   {
     id: "maintenance-support",
-    title: "Maintenance & Support",
+    title: "Marketing & SEO",
     subtitle:
-      "Keep your product stable, fast, and secure — with ongoing improvements and monitoring.",
+      "Grow your brand visibility, traffic, and conversions with data-driven marketing strategies.",
     items: [
       {
-        title: "Bug Fixing & Enhancements",
-        desc: "Continuous improvements, feature updates, and backlog execution.",
+        title: "SEO Optimization",
+        desc: "Technical SEO, keyword research, on-page improvements, and ranking strategy.",
         tag: "Ongoing",
         href: "/company/contact",
       },
       {
-        title: "Performance Optimization",
-        desc: "Speed, Core Web Vitals, API tuning, caching, and database improvements.",
+        title: "Content & Blogging Strategy",
+        desc: "Content planning, SEO writing, and authority building.",
         tag: "Performance",
         href: "/company/contact",
       },
       {
-        title: "Security Updates",
-        desc: "Dependency updates, vulnerability fixes, hardening, and best practices.",
+        title: "Digital Marketing",
+        desc: "Multi-channel campaigns across social media, email, and search platforms.",
         tag: "Security",
         href: "/company/contact",
       },
-      {
-        title: "Monitoring & Reliability",
-        desc: "Uptime monitoring, error tracking, alerts, and incident response workflows.",
-        tag: "SRE-lite",
-        href: "/company/contact",
-      },
+      // {
+      //   title: "Monitoring & Reliability",
+      //   desc: "Uptime monitoring, error tracking, alerts, and incident response workflows.",
+      //   tag: "SRE-lite",
+      //   href: "/company/contact",
+      // },
     ],
   },
   {
